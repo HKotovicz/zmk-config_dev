@@ -1,3 +1,12 @@
+
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+
 config CUSTOM_RGB_PERKEY
     bool "Per-key layer color RGB effect"
     depends on ZMK_RGB_UNDERGLOW
